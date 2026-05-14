@@ -1,62 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Scrum</title>
-<link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrum</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1>Metodología Scrum</h1>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<header>
-<nav class="navbar">
-<h1>Metodología Scrum</h1>
-<ul>
-<li><a href="index.html">Inicio</a></li>
-</ul>
-</nav>
-</header>
+    <div class="contenedor">
+      <h2 class="scrum-title">Enfoque Ágil Scrum</h2>
 
-<div class="contenedor">
+      <div class="scrum-roles-container">
+        <div class="scrum-role-card scrum-role-owner">
+          <h3>Product Owner</h3>
+          <p>Define requerimientos y prioridades del chatbot.</p>
+        </div>
 
-<h2>Enfoque Ágil Scrum</h2>
+        <div class="scrum-role-card scrum-role-master">
+          <h3>Scrum Master</h3>
+          <p>Coordina el equipo y elimina impedimentos.</p>
+        </div>
 
-<div class="scrum-grid">
+        <div class="scrum-role-card scrum-role-dev">
+          <h3>Equipo de Desarrollo</h3>
+          <p>Diseña, desarrolla y prueba el sistema.</p>
+        </div>
 
-<div class="card">
-<h3>Product Owner</h3>
-<p>Define requerimientos y prioridades del chatbot.</p>
-</div>
+        <div class="scrum-role-card scrum-role-sprints">
+          <h3>Sprints</h3>
+          <p>Iteraciones de desarrollo de 2 semanas.</p>
+        </div>
+      </div>
 
-<div class="card">
-<h3>Scrum Master</h3>
-<p>Coordina el equipo y elimina impedimentos.</p>
-</div>
+      <div class="scrum-backlog-card">
+        <h3>Product Backlog</h3>
 
-<div class="card">
-<h3>Equipo de Desarrollo</h3>
-<p>Diseña, desarrolla y prueba el sistema.</p>
-</div>
+        <ul class="scrum-backlog-list">
+          <li>Diseño del chatbot.</li>
+          <li>Desarrollo backend.</li>
+          <li>Motor IA.</li>
+          <li>Interfaz web.</li>
+          <li>Pruebas.</li>
+        </ul>
+      </div>
+    </div>
 
-<div class="card">
-<h3>Sprints</h3>
-<p>Iteraciones de desarrollo de 2 semanas.</p>
-</div>
-
-</div>
-
-<h2>Product Backlog</h2>
-
-<ul>
-<li>Diseño del chatbot.</li>
-<li>Desarrollo backend.</li>
-<li>Motor IA.</li>
-<li>Interfaz web.</li>
-<li>Pruebas.</li>
-</ul>
-
-</div>
-
-<script src="js/app.js"></script>
-</body>
+    <script src="js/app.js"></script>
+  </body>
 </html>
